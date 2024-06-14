@@ -1,0 +1,6 @@
+config BR2_PACKAGE_MYPKG
+	bool "mypkg"
+	select BR2_PACKAGE_C_PERIPHERY
+	help
+		Tester szybkości reakcji. Użytkownik musi nacisnąć przyciski odpowiadające zaświeconym
+		diodom. Aplikacja mierzy opóźnienie i na koniec prezentuje statystyki.
